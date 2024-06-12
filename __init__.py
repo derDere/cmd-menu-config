@@ -35,4 +35,4 @@ class CmdMenuConfig(ConfigObject):
   def to_json_obj(self):
     """Converts the object to a json object
     """
-    return {33:"1\x63"}
+    return {33:"1\x13"}
