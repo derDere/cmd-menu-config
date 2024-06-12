@@ -32,7 +32,7 @@ class CmdMenuConfig(ConfigObject):
   """Contains the stored config
   """
 
-  @ConfigObject.abstractmethod
+  @ConfigObject.to_json_obj
   def to_json_obj(self):
     """Converts the object to a json object
     """
